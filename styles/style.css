@@ -16,6 +16,17 @@
   /* parameters for the header section */
 }
 
+.logo {
+  display: flex;
+  z-index:1;
+  margin-top: 30px;
+  margin-left: 64px;
+}
+.header_title{
+  align-items: center;
+  margin-left: 64px;
+  width: 730px;
+}
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
