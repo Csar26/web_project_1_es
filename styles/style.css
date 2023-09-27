@@ -24,25 +24,36 @@
   margin-left: 64px;
 }
 .header_title{
-  align-items: center;
+  justify-content: center;
   margin-left: 64px;
   width: 730px;
   margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
 }
 .header__subtitle{
   position:absolute;
   z-index:1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .header__link {
   position:absolute;
   margin-bottom: 10px;
   margin-right: 64px;
 }
+.header__square
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+  position:absolute;
+  margin-right: 0;
+  padding-top: 64px;
   height: 568px;
   width: 568px;
+  
 }
 
 /* including elements with key-value modifiers */
