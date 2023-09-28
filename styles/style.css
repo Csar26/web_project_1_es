@@ -72,20 +72,34 @@
 .two-columns__brief {
   width: 175px;
   align-self: flex-start;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2F80ED;
 
 }
 .two-columns__paragraph-1 {
   margin-bottom: 30px;
   order: 1;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
 }
 
 .two-columns__paragraph-2 {
   margin-bottom: 30px;
   order: 2;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .two-columns__paragraph-3 {
   order: 3;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold
 }
 
 
