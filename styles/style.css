@@ -104,7 +104,7 @@
 .digits{
   display: flex;
 }
-.digitis__title{
+.section__title{
   position:absolute;
   padding-top: 100px;
   width: 60%;
@@ -112,7 +112,7 @@
   font-size: 60px;
   font-weight: bold;
 }
-.digits__subtitle {
+.section__subtitle {
   position:absolute;
   padding-top: 20px;
   width: 60%;
@@ -124,28 +124,46 @@
 .table {
   display: flex;
   flex-wrap: wrap;
-  position:absolute;
-  padding: 60px auto 100px;
-  width: 1100px
+  row-gap: 60px;
+  width: 1100px;
+  list-style: none;
+  margin:0 auto;
+  justify-content: space-between;
 }
-.table__cell__heading{
+.table__heading{
   line-height: 1.5;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__cell__text{
+.table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight:normal ;
 }
 .feyman{
   height: 790px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
   
 }
 .feynman__image{
   position: absolute;
   background-position: left bottom;
+
+}
+
+.feynman__title{
+  padding-top: 100px;
+  width: 775px;
+  z-index: 1;
+  position: absolute;
+}
+.feyman__subtitle{
+  padding-top: 70px;
+  width: 388px;
+  z-index: 1;
 }
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
