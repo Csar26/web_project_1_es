@@ -83,12 +83,11 @@
 }
 .two-columns__paragraph {
   margin-bottom: 30px;
-  order: 1;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-}
+
 .digits{
   display: flex;
 }
