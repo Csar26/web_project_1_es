@@ -21,7 +21,7 @@
   /* parameters for the header section */
 }
 .logo{
-  position:relative
+  position:absolute;
 }
 .logo__place_header{
   position: absolute;
@@ -297,9 +297,41 @@ color:#2F80ED;
   display:flex;
   top: 60px;
   bottom: 40px;
+  position: relative;
+  flex-direction: column;
+
    
 }
 .footer__column_content_copyright{
   color: #ffffff;
 }
+
+.footer__list{
+  color: #ffffff;
+}
+
+.footer__column-heading{
+  color: #ffffff;
+}
+.footer__column_content_copyright{
+  position:absolute;
+  bottom: 18px;
+}
+.footer__column_content_social{
+right: 10px;
+position: absolute;
+top:60px;
+row-gap: 20px;
+}
+.footer__column_content_about{
+  top: 60px;
+  right:300px ;
+  position:absolute;
+  row-gap: 20px;
+}
+.logo__place_footer{
+  position: absolute;
+  top:64px;
+}
+
 
