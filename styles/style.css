@@ -287,9 +287,6 @@ color:#2F80ED;
 
    
 }
-.footer__column_content_copyright{
-  color: #ffffff;
-}
 
 .footer__list{
   color: #ffffff;
@@ -301,6 +298,7 @@ color:#2F80ED;
 .footer__column_content_copyright{
   position:absolute;
   bottom: 18px;
+  color: #ffffff;
 }
 .footer__column_content_social{
 right: 10px;
