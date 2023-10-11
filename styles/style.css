@@ -164,15 +164,17 @@
   font-size: 24px;
   font-weight: bold;
   margin:0;
-  rotat
+  
 }
 
 .table__text{
   line-height: 1.2;
   font-size: 18px;
-  font-weight:normal;
+  font-weight: normal;
   margin:0;
 }
+
+
 .feyman{
   position: relative;
   height: 790px;
