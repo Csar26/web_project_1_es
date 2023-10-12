@@ -109,12 +109,12 @@
 }
 
 .two-columns__main-text{
-  min-width: 784px;
+  width: 784px;
   width: 80%;
   display:flex;
   flex-direction: column;
   align-self: flex-end;
-
+  margin:0;
 
   
 }
@@ -178,18 +178,20 @@
 .feyman{
   position: relative;
   height: 790px;
-  flex-direction: column;
   display: flex;
   background-color: #F2F2F2;
+  padding-top: 100px;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   
 }
 .feynman__image{
-  position: absolute;
   width: 867px;
   height: 637px;
-  background-position: left bottom;
+  background-image: left bottom;
+  display:flex;
+  
+
 }
 
 .feynman__title{
@@ -199,6 +201,8 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  display: flex;
+  position: absolute;
   
   
 }
@@ -209,8 +213,9 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  display: flex;
   position: absolute;
-  align-self: center;
+  align-items: center;
 }
 
 .feynman__link{
@@ -298,42 +303,57 @@ color:#2F80ED;
   margin-top: 60px;
   margin-bottom: 40px;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
 
    
 }
-
-.footer__list{
-  color: #ffffff;
+.footer__columns{
+  display:flex;
+  flex-direction: column;
 }
+.footer__column{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-.footer__column-heading{
-  color: #ffffff;
 }
 .footer__column_content_copyright{
-  position:relative;
   bottom: 18px;
   color: #ffffff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 18px;
-}
-.footer__column_content_social{
-right: 10px;
-position: absolute;
-top:60px;
-row-gap: 20px;
-}
-.footer__column_content_about{
-  top: 60px;
-  right:300px;
-  position:absolute;
-  row-gap: 20px;
+  position:relative;
+  flex-direction: row;
+  justify-items: baseline;
 }
 .logo__place_footer{
   position:absolute;
   top:0;
   display: flex;
+}
+
+.footer__column_content_about{
+  top: 60px;
+  right:300px;
+  position:absolute;
+  row-gap: 20px;
+  display: flex;
+  list-style: 0;
+}
+
+.footer__column-heading{
+  color: #ffffff;
+}
+
+.footer__list{
+  color: #ffffff;
+  flex-direction: row;
+}
+
+.footer__column-link{
+  display:flex;
+  flex-direction: row;
 }
 .footer__autor{
   position: absolute;
@@ -344,5 +364,14 @@ row-gap: 20px;
   bottom: 0;
  
 }
+.footer__column_content_social{
+right: 10px;
+position: absolute;
+top:60px;
+row-gap: 20px;
+
+}
+
+
 
 
