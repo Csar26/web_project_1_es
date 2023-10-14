@@ -26,7 +26,6 @@
 }
 .logo__place_header{
  position: absolute;
- top:0;
  width: 154px;
  top: 30px;
  left: 64px;
@@ -185,7 +184,6 @@
   height: 790px;
   position: relative;
   display: flex;
-  height: 790px;
   align-items: center;
   flex-direction: column;
 }
