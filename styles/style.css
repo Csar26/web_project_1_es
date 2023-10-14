@@ -84,7 +84,8 @@
   max-height: 756px;
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 100px;
   position: relative;
 
 }
@@ -118,11 +119,12 @@
   flex-direction: column;
   align-self: flex-end;
   margin:0;
+  gap: 30px;
 
   
 }
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -291,77 +293,72 @@ color:#2F80ED;
   
 }
 .footer{
-  background-color:#000000;
-  min-height: 350px;
-  display:flex;
-  margin-bottom: 40px;
-  position: relative;
-  flex-direction: row;
-
-   
+ min-height: 350px;
+ padding: 60px 0 40px 0;
+ background-color: #000000;
+ color: white;
+  display: flex;
 }
 .footer__columns{
-  display:flex;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+ margin: 0 auto;
 }
 .footer__column{
-  display:flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
 }
 .footer__column_content_copyright{
-  bottom: 18px;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  margin-top: 18px;
-  position:relative;
-  flex-direction: row;
-  justify-items: baseline;
+  position: relative;
+  justify-content: flex-end;
+  flex-basis: 711px;
+ 
 }
-.logo__place_footer{
-  position:absolute;
-  top:0;
-  display: flex;
+.logo_place_footer{
+  top: 0;
+  left: 0;
+  width: 183px;
+  height: 35px;
 }
 
 .footer__column_content_about{
-  top: 60px;
-  right:300px;
-  position:absolute;
-  row-gap: 20px;
-  display: flex;
-  list-style: 0;
+  gap: 20px;
+
+
+  
 }
 
 .footer__column-heading{
-  color: #ffffff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+
 }
 
 .footer__list{
-  color: #ffffff;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .footer__column-link{
-  display:flex;
-  flex-direction: row;
-}
-.footer__autor{
-  position: absolute;
-  display: flex;
-  line-height: 25px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  bottom: 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__author{
+  margin: 18px 0;
+
+  
  
 }
 .footer__column_content_social{
-right: 10px;
-position: absolute;
-top:60px;
-row-gap: 20px;
+gap:20px;
 
 }
 
