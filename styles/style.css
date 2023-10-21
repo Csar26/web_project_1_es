@@ -59,6 +59,11 @@
   color: #2F80ED;
   z-index: 1;
 }
+
+.header__link:hover {
+  opacity: 7;
+  color:#000000;
+}
 .header__main-illustration{
   position:absolute;
   z-index: 1;
