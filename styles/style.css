@@ -68,11 +68,11 @@ page {
   bottom: 30px;
   color: #2F80ED;
   z-index: 1;
+  transition: ease 1s;
 }
 
 .header__link:hover {
-  opacity: 5;
-  color:black;
+  opacity: 0.5;
 }
 .header__main-illustration{
   position:absolute;
@@ -188,6 +188,24 @@ width: 160px;
   font-weight: normal;
 }
 
+.video{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.Oakley{
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+
+}
 .digits{
   display: flex;
   flex-direction: column;
@@ -281,8 +299,15 @@ line-height: 51px;
 font-size: 36px;
 font-weight: normal;
 color:#2F80ED;
+transition: ease 1s;
 
 }
+
+.feynman__link:hover{
+opacity: 0.5;
+
+}
+
 .kaufman{
   display:flex;
   background-color: #000000;
@@ -408,7 +433,13 @@ color:#2F80ED;
   font-weight: normal;
   text-decoration: none;
   color: #ffffff;
+  transition: ease 1s;
 }
+.footer__column-link:hover{
+opacity: 0.5; 
+
+}
+
 .footer__author{
   margin: 18px 0;
 
