@@ -1,0 +1,10 @@
+.two-columns {
+    min-width: 784px;
+    width: 80%;
+    row-gap: 30px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }

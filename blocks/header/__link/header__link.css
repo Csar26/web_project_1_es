@@ -1,0 +1,13 @@
+
+.header__link {
+    position:absolute;
+    left: 64px;
+    bottom: 30px;
+    color: #2F80ED;
+    z-index: 1;
+    transition: ease 1s;
+  }
+  
+.header__link:hover {
+  opacity: 0.5;
+}
