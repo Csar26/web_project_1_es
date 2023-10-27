@@ -6,6 +6,7 @@
     color: #2F80ED;
     z-index: 1;
     transition: ease 1s;
+    text-decoration: none;
   }
   
 .header__link:hover {
